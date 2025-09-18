@@ -24,6 +24,7 @@ public class Vehiculo {
     private String modelo;
     private String Color;
     private String marca;
+    @OneToOne
     private String duenio;
     private LocalDate fechaDeEntrega;
 
